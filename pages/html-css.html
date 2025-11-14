@@ -34,55 +34,729 @@
 
     <main class="wrapper">
         <section class="intro">
-            <span class="badge">Kodebibliotek</span>
-            <h2>Slik dokumenterer dere bidragene</h2>
-            <p>Lim inn kodebidragene fra hvert gruppemedlem under. Erstatt plassholderne med deres faktiske eksempler, forklar hvilke utfordringer dere løste og hvilke prinsipper dere fulgte.</p>
+            <span class="badge">Kodegalleri</span>
+            <h2>Gruppebidrag i HTML &amp; CSS</h2>
+            <p>Hver av oss har laget en egen nettside. Under finner du navnet til hvert gruppemedlem og hele kildekoden til siden deres.</p>
         </section>
 
         <section class="code-section">
-            <h2>Medlem 1 – Navn</h2>
-            <p><strong>Fokus:</strong> Beskriv kort hva koden demonstrerer og hvorfor den er relevant for prosjektet.</p>
-            <pre><code>&lt;!-- Lim inn HTML- eller CSS-koden til medlem 1 her --&gt;
-&lt;div class="eksempel"&gt;
-    &lt;p&gt;Erstatt denne teksten med egen kode.&lt;/p&gt;
-&lt;/div&gt;
-            </code></pre>
+            <h2>Farhid Rahmani</h2>
+            <p>Farhid har laget en hyllestside til favorittspilleren sin. <a href="farhid-site.html">Besøk siden</a>.</p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;no&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Farhids Favoritt – Cristiano Ronaldo&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;../css/style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;div class=&quot;wrapper&quot;&gt;
+            &lt;h1&gt;Cristiano Ronaldo&lt;/h1&gt;
+            &lt;p&gt;En kort hyllest til Farhids favorittspiller med bilde, fakta og lenke til mer informasjon.&lt;/p&gt;
+            &lt;nav aria-label=&quot;Hovedmeny&quot;&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href=&quot;../index.html&quot;&gt;Forside&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;farhid-rahmani.html&quot; aria-current=&quot;page&quot;&gt;Tilbake til Farhid&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+        &lt;/div&gt;
+    &lt;/header&gt;
+
+    &lt;main class=&quot;wrapper&quot;&gt;
+        &lt;section class=&quot;profile-card&quot;&gt;
+            &lt;span class=&quot;badge&quot;&gt;Cristiano Ronaldo&lt;/span&gt;
+            &lt;img src=&quot;../img/ronaldo.jpg&quot; alt=&quot;Cristiano Ronaldo med hendene samlet foran seg&quot;&gt;
+            &lt;p&gt;Cristiano Ronaldo dos Santos Aveiro er en portugisisk fotballspiller, kjent for sin imponerende målteft, fysikk og teknikk. Han har vunnet Ballon d&#x27;Or flere ganger, Champions League med både Manchester United og Real Madrid, og er toppscorer for Portugal.&lt;/p&gt;
+            &lt;p&gt;&lt;a class=&quot;badge&quot; href=&quot;https://no.wikipedia.org/wiki/Cristiano_Ronaldo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Les mer på Wikipedia&lt;/a&gt;&lt;/p&gt;
+        &lt;/section&gt;
+
+        &lt;section class=&quot;code-section&quot;&gt;
+            &lt;h2&gt;Kode til denne siden&lt;/h2&gt;
+            &lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;no&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+    &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1.0&amp;quot;&amp;gt;
+    &amp;lt;title&amp;gt;Farhids Favoritt – Cristiano Ronaldo&amp;lt;/title&amp;gt;
+    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;../css/style.css&amp;quot;&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+    &amp;lt;header&amp;gt;
+        &amp;lt;div class=&amp;quot;wrapper&amp;quot;&amp;gt;
+            &amp;lt;h1&amp;gt;Cristiano Ronaldo&amp;lt;/h1&amp;gt;
+            &amp;lt;p&amp;gt;En kort hyllest til Farhids favorittspiller med bilde, fakta og lenke til mer informasjon.&amp;lt;/p&amp;gt;
+            &amp;lt;nav aria-label=&amp;quot;Hovedmeny&amp;quot;&amp;gt;
+                &amp;lt;ul&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Forside&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;farhid-rahmani.html&amp;quot; aria-current=&amp;quot;page&amp;quot;&amp;gt;Tilbake til Farhid&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+            &amp;lt;/nav&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/header&amp;gt;
+
+    &amp;lt;main class=&amp;quot;wrapper&amp;quot;&amp;gt;
+        &amp;lt;section class=&amp;quot;profile-card&amp;quot;&amp;gt;
+            &amp;lt;span class=&amp;quot;badge&amp;quot;&amp;gt;Cristiano Ronaldo&amp;lt;/span&amp;gt;
+            &amp;lt;img src=&amp;quot;../img/ronaldo.jpg&amp;quot; alt=&amp;quot;Cristiano Ronaldo med hendene samlet foran seg&amp;quot;&amp;gt;
+            &amp;lt;p&amp;gt;Cristiano Ronaldo dos Santos Aveiro er en portugisisk fotballspiller, kjent for sin imponerende målteft, fysikk og teknikk. Han har vunnet Ballon d&amp;#x27;Or flere ganger, Champions League med både Manchester United og Real Madrid, og er toppscorer for Portugal.&amp;lt;/p&amp;gt;
+            &amp;lt;p&amp;gt;&amp;lt;a class=&amp;quot;badge&amp;quot; href=&amp;quot;https://no.wikipedia.org/wiki/Cristiano_Ronaldo&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;Les mer på Wikipedia&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+        &amp;lt;/section&amp;gt;
+    &amp;lt;/main&amp;gt;
+
+    &amp;lt;footer&amp;gt;
+        &amp;lt;div class=&amp;quot;wrapper&amp;quot;&amp;gt;
+            &amp;lt;p&amp;gt;Nettsiden er laget av Farhid som en del av prosjektarbeidet.&amp;lt;/p&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/footer&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+        &lt;/section&gt;
+    &lt;/main&gt;
+
+    &lt;footer&gt;
+        &lt;div class=&quot;wrapper&quot;&gt;
+            &lt;p&gt;Nettsiden er laget av Farhid som en del av prosjektarbeidet.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
         </section>
 
         <section class="code-section">
-            <h2>Medlem 2 – Navn</h2>
-            <p><strong>Refleksjon:</strong> Hvilket problem løser koden og hvilke prinsipper fulgte dere?</p>
-            <pre><code>.button-primary {
-    background: #123b63;
-    color: #fff;
-}
-            </code></pre>
+            <h2>Mansur</h2>
+            <p>Mansur presenterer seg som webutvikler og inviterer til kontakt. <a href="mansur-site.html">Besøk siden</a>.</p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;no&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;/&gt;
+  &lt;title&gt;Mansur – Webutvikler&lt;/title&gt;
+  &lt;style&gt;
+    :root{
+      --bg: #f9f9f9;
+      --card: #ffffff;
+      --muted: #6b7280;
+      --accent: #0b84ff;
+      --accent-contrast: #fff;
+      --radius: 12px;
+      --shadow: 0 6px 18px rgba(15,23,42,0.08);
+      --max-width: 900px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      font-family: Inter, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif;
+      margin:0;
+      background: linear-gradient(180deg,#fbfdff 0%, var(--bg) 100%);
+      color:#111827; line-height:1.5;
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+    }
+
+    header{
+      background:#111827;
+      color:#fff;
+      text-align:center;
+      padding:3rem 1rem 2rem;
+    }
+    header .hero-img{
+      width:140px; height:140px;
+      border-radius:50%;
+      object-fit:cover;
+      display:block;
+      margin:0 auto 1rem;
+      box-shadow:0 6px 16px rgba(0,0,0,0.25);
+    }
+    header h1{font-size:clamp(1.6rem,2.8vw,2.5rem);margin:0;letter-spacing:-0.01em}
+    header p{font-size:1rem;margin-top:0.5rem;color:#d1d5db}
+
+    main{
+      max-width:var(--max-width);
+      margin:2rem auto; padding:0 1rem 3rem;
+      display:grid; gap:2rem;
+    }
+    section{background:transparent}
+    h2{
+      color:#111827; border-bottom:2px solid #e6e9ef;
+      padding-bottom:0.5rem; margin:0 0 1rem; font-size:1.2rem;
+    }
+
+    .skills ul{list-style:none;padding:0;margin:0}
+    .skills li{
+      background:#eef2ff; display:inline-block; margin:0.3rem;
+      padding:0.45rem 0.9rem; border-radius:999px; font-size:0.95rem; color:#0a2540;
+    }
+
+    .contact-card{
+      background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow);
+      padding:1.25rem; display:grid; grid-template-columns:1fr; gap:1rem;
+    }
+    .contact-top{display:flex; align-items:center; gap:0.75rem}
+    .avatar{
+      width:56px; height:56px; border-radius:12px; object-fit:cover; flex:0 0 56px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.12);
+    }
+    .contact-meta p{margin:0} .contact-meta small{color:var(--muted)}
+
+    form.contact-form{display:grid; gap:0.75rem}
+    .row{display:grid; grid-template-columns:1fr 1fr; gap:0.75rem}
+    label{font-size:0.875rem; display:block; margin-bottom:0.35rem; color:#111827}
+
+    input[type=&quot;text&quot;], input[type=&quot;email&quot;], textarea, input[type=&quot;tel&quot;]{
+      width:100%; border:1px solid #e6e9ef; background:#fff;
+      padding:0.65rem 0.75rem; border-radius:10px; font-size:0.95rem;
+      outline:none; transition: box-shadow .18s ease, border-color .12s ease;
+    }
+    textarea{min-height:120px; resize:vertical}
+    input:focus, textarea:focus{border-color:#0b84ff; box-shadow:0 6px 18px rgba(11,132,255,0.12)}
+    .help{font-size:0.82rem; color:var(--muted); margin-top:0.25rem}
+    .actions{display:flex; gap:0.5rem; align-items:center; justify-content:flex-start; margin-top:0.25rem}
+
+    button[type=&quot;submit&quot;]{
+      background:#0b84ff; color:#fff; border:none; padding:0.6rem 1rem;
+      font-size:0.95rem; border-radius:10px; cursor:pointer;
+      box-shadow:0 6px 18px rgba(11,132,255,0.14);
+    }
+    .secondary{background:transparent; border:1px solid #e6e9ef; padding:0.55rem 0.9rem; border-radius:10px; cursor:pointer; font-size:0.95rem}
+    .success{display:none; padding:0.75rem 1rem; border-radius:10px; background:#eef7ee; color:#064e0b; font-weight:600}
+
+    @media (max-width:700px){
+      .row{grid-template-columns:1fr}
+      .avatar{width:48px; height:48px; flex:0 0 48px}
+    }
+
+    footer{text-align:center; padding:2rem 1rem; background:#111827; color:#fff; margin-top:2rem}
+    a{color:#0b84ff; text-decoration:none} a:hover{text-decoration:underline}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;img src=&quot;../img/mansur-profile.jpg&quot; alt=&quot;Mansur&quot; class=&quot;hero-img&quot;&gt;
+    &lt;h1&gt;Hei, jeg heter Mansur&lt;/h1&gt;
+    &lt;p&gt;Jeg er webutvikler og liker å utforske nye ting 🚀&lt;/p&gt;
+  &lt;/header&gt;
+
+  &lt;main&gt;
+    &lt;section class=&quot;about&quot;&gt;
+      &lt;h2&gt;Om meg&lt;/h2&gt;
+      &lt;p&gt;
+        Jeg brenner for webutvikling og elsker å lære og prøve ut nye teknologier.
+        Målet mitt er å skape moderne, brukervennlige og responsive løsninger.
+      &lt;/p&gt;
+    &lt;/section&gt;
+
+    &lt;section class=&quot;skills&quot;&gt;
+      &lt;h2&gt;Ferdigheter&lt;/h2&gt;
+      &lt;ul&gt;
+        &lt;li&gt;HTML &amp; CSS&lt;/li&gt;
+        &lt;li&gt;JavaScript&lt;/li&gt;
+        &lt;li&gt;Responsivt design&lt;/li&gt;
+        &lt;li&gt;Utforsking av nye teknologier&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/section&gt;
+
+    &lt;section class=&quot;contact&quot;&gt;
+      &lt;h2&gt;Kontakt&lt;/h2&gt;
+      &lt;div class=&quot;contact-card&quot; aria-labelledby=&quot;contact-heading&quot;&gt;
+        &lt;div class=&quot;contact-top&quot;&gt;
+          &lt;img src=&quot;../img/mansur-profile.jpg&quot; alt=&quot;Mansur&quot; class=&quot;avatar&quot;&gt;
+          &lt;div class=&quot;contact-meta&quot;&gt;
+            &lt;p style=&quot;margin:0;font-weight:600&quot;&gt;Mansur – Webutvikler&lt;/p&gt;
+            &lt;small&gt;Trenger du hjelp med et prosjekt? Send en melding nedenfor.&lt;/small&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;form class=&quot;contact-form&quot; onsubmit=&quot;handleSubmit(event)&quot; novalidate&gt;
+          &lt;div class=&quot;row&quot;&gt;
+            &lt;div&gt;
+              &lt;label for=&quot;name&quot;&gt;Navn&lt;/label&gt;
+              &lt;input id=&quot;name&quot; name=&quot;name&quot; type=&quot;text&quot; placeholder=&quot;Ditt navn&quot; required aria-required=&quot;true&quot; /&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;label for=&quot;email&quot;&gt;E-post&lt;/label&gt;
+              &lt;input id=&quot;email&quot; name=&quot;email&quot; type=&quot;email&quot; placeholder=&quot;din@mail.no&quot; required aria-required=&quot;true&quot; /&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;div&gt;
+            &lt;label for=&quot;subject&quot;&gt;Emne&lt;/label&gt;
+            &lt;input id=&quot;subject&quot; name=&quot;subject&quot; type=&quot;text&quot; placeholder=&quot;Kort emne&quot; /&gt;
+          &lt;/div&gt;
+
+          &lt;div&gt;
+            &lt;label for=&quot;message&quot;&gt;Melding&lt;/label&gt;
+            &lt;textarea id=&quot;message&quot; name=&quot;message&quot; placeholder=&quot;Hva kan jeg hjelpe med?&quot; required aria-required=&quot;true&quot;&gt;&lt;/textarea&gt;
+            &lt;div class=&quot;help&quot;&gt;Minimum 10 tegn.&lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;actions&quot;&gt;
+            &lt;button type=&quot;submit&quot;&gt;Send melding&lt;/button&gt;
+            &lt;button type=&quot;button&quot; class=&quot;secondary&quot; onclick=&quot;resetForm()&quot;&gt;Nullstill&lt;/button&gt;
+            &lt;div id=&quot;success&quot; class=&quot;success&quot; role=&quot;status&quot; aria-live=&quot;polite&quot;&gt;Takk — meldingen er sendt!&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/form&gt;
+
+        &lt;p style=&quot;margin-top:0.5rem;font-size:0.9rem;color:var(--muted)&quot;&gt;
+          Eller kontakt direkte via &lt;a href=&quot;mailto:mansur@gmail.com&quot;&gt;mansur@gmail.com&lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/main&gt;
+
+  &lt;footer&gt;
+    &lt;p&gt;© 2025 Mansur – Laget med ❤ og nysgjerrighet&lt;/p&gt;
+  &lt;/footer&gt;
+
+  &lt;section class=&quot;code-section&quot; style=&quot;max-width:var(--max-width);margin:2rem auto 4rem;padding:0 1rem;&quot;&gt;
+    &lt;h2&gt;Min kode for denne siden&lt;/h2&gt;
+    &lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;no&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot; /&amp;gt;
+  &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1.0&amp;quot;/&amp;gt;
+  &amp;lt;title&amp;gt;Mansur – Webutvikler&amp;lt;/title&amp;gt;
+  &amp;lt;style&amp;gt;
+    :root{
+      --bg: #f9f9f9;
+      --card: #ffffff;
+      --muted: #6b7280;
+      --accent: #0b84ff;
+      --accent-contrast: #fff;
+      --radius: 12px;
+      --shadow: 0 6px 18px rgba(15,23,42,0.08);
+      --max-width: 900px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      font-family: Inter, &amp;quot;Segoe UI&amp;quot;, Roboto, Arial, sans-serif;
+      margin:0;
+      background: linear-gradient(180deg,#fbfdff 0%, var(--bg) 100%);
+      color:#111827; line-height:1.5;
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+    }
+
+    
+    header{
+      background:#111827;
+      color:#fff;
+      text-align:center;
+      padding:3rem 1rem 2rem;
+    }
+    header .hero-img{
+      width:140px; height:140px;
+      border-radius:50%;
+      object-fit:cover;
+      display:block;
+      margin:0 auto 1rem;
+      box-shadow:0 6px 16px rgba(0,0,0,0.25);
+    }
+    header h1{font-size:clamp(1.6rem,2.8vw,2.5rem);margin:0;letter-spacing:-0.01em}
+    header p{font-size:1rem;margin-top:0.5rem;color:#d1d5db}
+
+    main{
+      max-width:var(--max-width);
+      margin:2rem auto; padding:0 1rem 3rem;
+      display:grid; gap:2rem;
+    }
+    section{background:transparent}
+    h2{
+      color:#111827; border-bottom:2px solid #e6e9ef;
+      padding-bottom:0.5rem; margin:0 0 1rem; font-size:1.2rem;
+    }
+
+    
+    .skills ul{list-style:none;padding:0;margin:0}
+    .skills li{
+      background:#eef2ff; display:inline-block; margin:0.3rem;
+      padding:0.45rem 0.9rem; border-radius:999px; font-size:0.95rem; color:#0a2540;
+    }
+
+    
+    .contact-card{
+      background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow);
+      padding:1.25rem; display:grid; grid-template-columns:1fr; gap:1rem;
+    }
+    .contact-top{display:flex; align-items:center; gap:0.75rem}
+    .avatar{
+      width:56px; height:56px; border-radius:12px; object-fit:cover; flex:0 0 56px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.12);
+    }
+    .contact-meta p{margin:0} .contact-meta small{color:var(--muted)}
+
+    form.contact-form{display:grid; gap:0.75rem}
+    .row{display:grid; grid-template-columns:1fr 1fr; gap:0.75rem}
+    label{font-size:0.875rem; display:block; margin-bottom:0.35rem; color:#111827}
+
+    input[type=&amp;quot;text&amp;quot;], input[type=&amp;quot;email&amp;quot;], textarea, input[type=&amp;quot;tel&amp;quot;]{
+      width:100%; border:1px solid #e6e9ef; background:#fff;
+      padding:0.65rem 0.75rem; border-radius:10px; font-size:0.95rem;
+      outline:none; transition: box-shadow .18s ease, border-color .12s ease;
+    }
+    textarea{min-height:120px; resize:vertical}
+    input:focus, textarea:focus{border-color:#0b84ff; box-shadow:0 6px 18px rgba(11,132,255,0.12)}
+    .help{font-size:0.82rem; color:var(--muted); margin-top:0.25rem}
+    .actions{display:flex; gap:0.5rem; align-items:center; justify-content:flex-start; margin-top:0.25rem}
+
+    button[type=&amp;quot;submit&amp;quot;]{
+      background:#0b84ff; color:#fff; border:none; padding:0.6rem 1rem;
+      font-size:0.95rem; border-radius:10px; cursor:pointer;
+      box-shadow:0 6px 18px rgba(11,132,255,0.14);
+    }
+    .secondary{background:transparent; border:1px solid #e6e9ef; padding:0.55rem 0.9rem; border-radius:10px; cursor:pointer; font-size:0.95rem}
+    .success{display:none; padding:0.75rem 1rem; border-radius:10px; background:#eef7ee; color:#064e0b; font-weight:600}
+
+    @media (max-width:700px){
+      .row{grid-template-columns:1fr}
+      .avatar{width:48px; height:48px; flex:0 0 48px}
+    }
+
+    footer{text-align:center; padding:2rem 1rem; background:#111827; color:#fff; margin-top:2rem}
+    a{color:#0b84ff; text-decoration:none} a:hover{text-decoration:underline}
+  &amp;lt;/style&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;header&amp;gt;
+    &amp;lt;img src=&amp;quot;../img/mansur-profile.jpg&amp;quot; alt=&amp;quot;Mansur&amp;quot; class=&amp;quot;hero-img&amp;quot;&amp;gt;
+    &amp;lt;h1&amp;gt;Hei, jeg heter Mansur&amp;lt;/h1&amp;gt;
+    &amp;lt;p&amp;gt;Jeg er webutvikler og liker å utforske nye ting 🚀&amp;lt;/p&amp;gt;
+  &amp;lt;/header&amp;gt;
+
+  &amp;lt;main&amp;gt;
+    &amp;lt;section class=&amp;quot;about&amp;quot;&amp;gt;
+      &amp;lt;h2&amp;gt;Om meg&amp;lt;/h2&amp;gt;
+      &amp;lt;p&amp;gt;
+        Jeg brenner for webutvikling og elsker å lære og prøve ut nye teknologier.
+        Målet mitt er å skape moderne, brukervennlige og responsive løsninger.
+      &amp;lt;/p&amp;gt;
+    &amp;lt;/section&amp;gt;
+
+    &amp;lt;section class=&amp;quot;skills&amp;quot;&amp;gt;
+      &amp;lt;h2&amp;gt;Ferdigheter&amp;lt;/h2&amp;gt;
+      &amp;lt;ul&amp;gt;
+        &amp;lt;li&amp;gt;HTML &amp;amp; CSS&amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;JavaScript&amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;Responsivt design&amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;Utforsking av nye teknologier&amp;lt;/li&amp;gt;
+      &amp;lt;/ul&amp;gt;
+    &amp;lt;/section&amp;gt;
+
+    &amp;lt;section class=&amp;quot;contact&amp;quot;&amp;gt;
+      &amp;lt;h2&amp;gt;Kontakt&amp;lt;/h2&amp;gt;
+      &amp;lt;div class=&amp;quot;contact-card&amp;quot; aria-labelledby=&amp;quot;contact-heading&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;contact-top&amp;quot;&amp;gt;
+          &amp;lt;img src=&amp;quot;../img/mansur-profile.jpg&amp;quot; alt=&amp;quot;Mansur&amp;quot; class=&amp;quot;avatar&amp;quot;&amp;gt;
+          &amp;lt;div class=&amp;quot;contact-meta&amp;quot;&amp;gt;
+            &amp;lt;p style=&amp;quot;margin:0;font-weight:600&amp;quot;&amp;gt;Mansur – Webutvikler&amp;lt;/p&amp;gt;
+            &amp;lt;small&amp;gt;Trenger du hjelp med et prosjekt? Send en melding nedenfor.&amp;lt;/small&amp;gt;
+          &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;form class=&amp;quot;contact-form&amp;quot; onsubmit=&amp;quot;handleSubmit(event)&amp;quot; novalidate&amp;gt;
+          &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+            &amp;lt;div&amp;gt;
+              &amp;lt;label for=&amp;quot;name&amp;quot;&amp;gt;Navn&amp;lt;/label&amp;gt;
+              &amp;lt;input id=&amp;quot;name&amp;quot; name=&amp;quot;name&amp;quot; type=&amp;quot;text&amp;quot; placeholder=&amp;quot;Ditt navn&amp;quot; required aria-required=&amp;quot;true&amp;quot; /&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;div&amp;gt;
+              &amp;lt;label for=&amp;quot;email&amp;quot;&amp;gt;E-post&amp;lt;/label&amp;gt;
+              &amp;lt;input id=&amp;quot;email&amp;quot; name=&amp;quot;email&amp;quot; type=&amp;quot;email&amp;quot; placeholder=&amp;quot;din@mail.no&amp;quot; required aria-required=&amp;quot;true&amp;quot; /&amp;gt;
+            &amp;lt;/div&amp;gt;
+          &amp;lt;/div&amp;gt;
+
+          &amp;lt;div&amp;gt;
+            &amp;lt;label for=&amp;quot;subject&amp;quot;&amp;gt;Emne&amp;lt;/label&amp;gt;
+            &amp;lt;input id=&amp;quot;subject&amp;quot; name=&amp;quot;subject&amp;quot; type=&amp;quot;text&amp;quot; placeholder=&amp;quot;Kort emne&amp;quot; /&amp;gt;
+          &amp;lt;/div&amp;gt;
+
+          &amp;lt;div&amp;gt;
+            &amp;lt;label for=&amp;quot;message&amp;quot;&amp;gt;Melding&amp;lt;/label&amp;gt;
+            &amp;lt;textarea id=&amp;quot;message&amp;quot; name=&amp;quot;message&amp;quot; placeholder=&amp;quot;Hva kan jeg hjelpe med?&amp;quot; required aria-required=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/textarea&amp;gt;
+            &amp;lt;div class=&amp;quot;help&amp;quot;&amp;gt;Minimum 10 tegn.&amp;lt;/div&amp;gt;
+          &amp;lt;/div&amp;gt;
+
+          &amp;lt;div class=&amp;quot;actions&amp;quot;&amp;gt;
+            &amp;lt;button type=&amp;quot;submit&amp;quot;&amp;gt;Send melding&amp;lt;/button&amp;gt;
+            &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;secondary&amp;quot; onclick=&amp;quot;resetForm()&amp;quot;&amp;gt;Nullstill&amp;lt;/button&amp;gt;
+            &amp;lt;div id=&amp;quot;success&amp;quot; class=&amp;quot;success&amp;quot; role=&amp;quot;status&amp;quot; aria-live=&amp;quot;polite&amp;quot;&amp;gt;Takk — meldingen er sendt!&amp;lt;/div&amp;gt;
+          &amp;lt;/div&amp;gt;
+        &amp;lt;/form&amp;gt;
+
+        &amp;lt;p style=&amp;quot;margin-top:0.5rem;font-size:0.9rem;color:var(--muted)&amp;quot;&amp;gt;
+          Eller kontakt direkte via &amp;lt;a href=&amp;quot;mailto:mansur@gmail.com&amp;quot;&amp;gt;mansur@gmail.com&amp;lt;/a&amp;gt;
+        &amp;lt;/p&amp;gt;
+      &amp;lt;/div&amp;gt;
+    &amp;lt;/section&amp;gt;
+  &amp;lt;/main&amp;gt;
+
+  &amp;lt;footer&amp;gt;
+    &amp;lt;p&amp;gt;© 2025 Mansur – Laget med ❤ og nysgjerrighet&amp;lt;/p&amp;gt;
+  &amp;lt;/footer&amp;gt;
+
+  &amp;lt;script&amp;gt;
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById(&#x27;name&#x27;).value.trim();
+      const email = document.getElementById(&#x27;email&#x27;).value.trim();
+      const message = document.getElementById(&#x27;message&#x27;).value.trim();
+      if(!name || !email || !message || message.length &amp;lt; 10){
+        alert(&#x27;Vennligst fyll ut navn, e-post og en melding på minst 10 tegn.&#x27;);
+        return;
+      }
+      const success = document.getElementById(&#x27;success&#x27;);
+      success.style.display = &#x27;inline-block&#x27;;
+      e.target.reset();
+      setTimeout(()=&gt; success.style.display = &#x27;none&#x27;, 5000);
+    }
+    function resetForm(){
+      const form = document.querySelector(&#x27;.contact-form&#x27;);
+      form.reset();
+      document.getElementById(&#x27;success&#x27;).style.display = &#x27;none&#x27;;
+    }
+  &amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+  &lt;/section&gt;
+
+  &lt;script&gt;
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById(&#x27;name&#x27;).value.trim();
+      const email = document.getElementById(&#x27;email&#x27;).value.trim();
+      const message = document.getElementById(&#x27;message&#x27;).value.trim();
+      if(!name || !email || !message || message.length &lt; 10){
+        alert(&#x27;Vennligst fyll ut navn, e-post og en melding på minst 10 tegn.&#x27;);
+        return;
+      }
+      const success = document.getElementById(&#x27;success&#x27;);
+      success.style.display = &#x27;inline-block&#x27;;
+      e.target.reset();
+      setTimeout(()=&gt; success.style.display = &#x27;none&#x27;, 5000);
+    }
+    function resetForm(){
+      const form = document.querySelector(&#x27;.contact-form&#x27;);
+      form.reset();
+      document.getElementById(&#x27;success&#x27;).style.display = &#x27;none&#x27;;
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
         </section>
 
         <section class="code-section">
-            <h2>Medlem 3 – Navn</h2>
-            <p><strong>Videre arbeid:</strong> Noter forbedringer dere ønsker å teste i neste iterasjon.</p>
-            <pre><code>&lt;!-- Legg til relevant kode for medlem 3 --&gt;
-&lt;form&gt;
-    &lt;label for="navn"&gt;Navn&lt;/label&gt;
-    &lt;input id="navn" type="text" /&gt;
-&lt;/form&gt;
-            </code></pre>
+            <h2>Danayit</h2>
+            <p>Danayit deler sin første HTML/CSS-side med fakta om Etiopia. <a href="danayit-site.html">Besøk siden</a>.</p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;no&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Danayit&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;../css/style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;div class=&quot;wrapper&quot;&gt;
+            &lt;h1&gt;Danayit&lt;/h1&gt;
+            &lt;p&gt;Lær mer om Danayit og hennes bidrag til prosjektet, inkludert den første nettsiden hun bygde.&lt;/p&gt;
+            &lt;nav aria-label=&quot;Hovedmeny&quot;&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href=&quot;../index.html&quot;&gt;Forside&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;gruppekontrakt.html&quot;&gt;Gruppekontrakt&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;html-css.html&quot;&gt;HTML &amp;amp; CSS&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;personas.html&quot;&gt;Personas&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;ia-wireframes.html&quot;&gt;IA &amp;amp; Wireframes&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;brukertesting.html&quot;&gt;Brukertesting&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;universell-utforming.html&quot;&gt;Universell utforming&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;brukehistorier.html&quot;&gt;Brukerhistorier&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;systemutviklingsmetoder.html&quot;&gt;Systemutviklingsmetoder&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;agile-metoder.html&quot;&gt;Agile metoder&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;farhid-rahmani.html&quot;&gt;Gruppens leder&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;mansur.html&quot;&gt;Mansur&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;danayit.html&quot; aria-current=&quot;page&quot;&gt;Danayit&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;fabian.html&quot;&gt;Fabian&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+        &lt;/div&gt;
+    &lt;/header&gt;
+
+    &lt;main class=&quot;wrapper&quot;&gt;
+        &lt;section class=&quot;profile-card&quot;&gt;
+            &lt;span class=&quot;badge&quot;&gt;Danayit&lt;/span&gt;
+            &lt;p&gt;Hei, jeg heter Danayit og dette er min første HTML- og CSS-side. Jeg utforsker struktur, stil og hvordan man deler kultur gjennom design.&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;danayit-site.html&quot; class=&quot;badge&quot;&gt;Se min nettside&lt;/a&gt;&lt;/p&gt;
+        &lt;/section&gt;
+
+        &lt;section class=&quot;code-section&quot;&gt;
+            &lt;h2&gt;Min kode&lt;/h2&gt;
+            &lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+    &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1&amp;quot;&amp;gt;
+    &amp;lt;title&amp;gt;Danay’s Website&amp;lt;/title&amp;gt;
+
+    &amp;lt;style&amp;gt;
+        body {
+            background-image: url(&#x27;https://erlc.com/wp-content/uploads/2022/03/GettyImages-1060042082.jpg&#x27;);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 { color: blue; }
+        p { color: gray; }
+        div {
+            background-color: lightgrey;
+            width: 300px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
+        }
+        a { color: darkred; text-decoration: underline; }
+        a:hover { color: red; }
+    &amp;lt;/style&amp;gt;
+    &amp;lt;meta name=&amp;quot;description&amp;quot; content=&amp;quot;Welcome page with facts about Ethiopia by Danay.&amp;quot;&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+    &amp;lt;h1&amp;gt;Hello, world!&amp;lt;/h1&amp;gt;
+    &amp;lt;p&amp;gt;This is my first website with HTML and CSS in the same file.&amp;lt;/p&amp;gt;
+
+    &amp;lt;h2&amp;gt;WELCOME TO ETHIOPIA&amp;lt;/h2&amp;gt;
+    &amp;lt;div&amp;gt;
+      Facts about ETHIOPIA&amp;lt;br&amp;gt;
+      Ethiopia has 13 months&amp;lt;br&amp;gt;
+      Ethiopia is currently in 2018.
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;https://adey.com.et/calendar/ethiopian-calendar&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Check the Ethiopian Calendar here&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+        &lt;/section&gt;
+    &lt;/main&gt;
+
+    &lt;footer&gt;
+        &lt;div class=&quot;wrapper&quot;&gt;
+            &lt;p&gt;Oppdater teksten når Danayit ønsker å dele mer om sin rolle i prosjektet.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
         </section>
 
         <section class="code-section">
-            <h2>Medlem 4 – Navn</h2>
-            <p><strong>Resultat:</strong> Hvordan påvirker koden brukeropplevelsen eller tilgjengeligheten?</p>
-            <pre><code>.grid-layout {
-    display: grid;
-    gap: 1.5rem;
-}
-            </code></pre>
-        </section>
+            <h2>Fabian</h2>
+            <p>Fabian har laget sin egen profilside med fokus på systemutvikling. <a href="fabian.html">Besøk siden</a>.</p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;no&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Fabian&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;../css/style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;div class=&quot;wrapper&quot;&gt;
+            &lt;h1&gt;Fabian&lt;/h1&gt;
+            &lt;p&gt;Møt Fabian – yngste medlem på prosjektet og ansvarlig for siden om systemutviklingsmetoder.&lt;/p&gt;
+            &lt;nav aria-label=&quot;Hovedmeny&quot;&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href=&quot;../index.html&quot;&gt;Forside&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;gruppekontrakt.html&quot;&gt;Gruppekontrakt&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;html-css.html&quot;&gt;HTML &amp;amp; CSS&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;personas.html&quot;&gt;Personas&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;ia-wireframes.html&quot;&gt;IA &amp;amp; Wireframes&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;brukertesting.html&quot;&gt;Brukertesting&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;universell-utforming.html&quot;&gt;Universell utforming&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;brukehistorier.html&quot;&gt;Brukerhistorier&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;systemutviklingsmetoder.html&quot;&gt;Systemutviklingsmetoder&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;agile-metoder.html&quot;&gt;Agile metoder&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;farhid-rahmani.html&quot;&gt;Gruppens leder&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;mansur.html&quot;&gt;Mansur&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;danayit.html&quot;&gt;Danayit&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;fabian.html&quot; aria-current=&quot;page&quot;&gt;Fabian&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+        &lt;/div&gt;
+    &lt;/header&gt;
 
-        <section class="notes">
-            <h2>Oppsummering</h2>
-            <p>Legg inn lenker til kode-repositorier eller dokumentasjon om nødvendig. Vurder å supplere med skjermbilder som viser før og etter.</p>
+    &lt;main class=&quot;wrapper&quot;&gt;
+        &lt;section class=&quot;profile-card&quot;&gt;
+            &lt;span class=&quot;badge&quot;&gt;Fabian&lt;/span&gt;
+            &lt;img src=&quot;../img/fabian.jpg&quot; alt=&quot;Portrett av Fabian, yngste medlem av gruppen&quot;&gt;
+            &lt;p&gt;Hei og velkommen til min side, mitt navn er Fabian og er 19 år gammel, den yngste medlmen av gruppa, min oppgave var å jobbe med systemutviklingsmetoder og lage min HTML CSS side, jeg håper dere blir imponert over arbeidet mitt.&lt;/p&gt;
+            &lt;p&gt;&lt;a class=&quot;badge&quot; href=&quot;https://no.wikipedia.org/wiki/Robert_Lewandowski&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Forbilde mitt&lt;/a&gt;&lt;/p&gt;
+        &lt;/section&gt;
+
+        &lt;section class=&quot;code-section&quot;&gt;
+            &lt;h2&gt;Min kode&lt;/h2&gt;
+            &lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&quot;no&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
+    &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;
+    &amp;lt;title&amp;gt;Fabian&amp;lt;/title&amp;gt;
+    &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;../css/style.css&quot;&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+    &amp;lt;header&amp;gt;
+        &amp;lt;div class=&quot;wrapper&quot;&amp;gt;
+            &amp;lt;h1&amp;gt;Fabian&amp;lt;/h1&amp;gt;
+            &amp;lt;p&amp;gt;Møt Fabian – yngste medlem på prosjektet og ansvarlig for siden om systemutviklingsmetoder.&amp;lt;/p&amp;gt;
+            &amp;lt;nav aria-label=&quot;Hovedmeny&quot;&amp;gt;
+                &amp;lt;ul&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;../index.html&quot;&amp;gt;Forside&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;gruppekontrakt.html&quot;&amp;gt;Gruppekontrakt&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;html-css.html&quot;&amp;gt;HTML &amp;amp; CSS&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;personas.html&quot;&amp;gt;Personas&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;ia-wireframes.html&quot;&amp;gt;IA &amp;amp; Wireframes&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;brukertesting.html&quot;&amp;gt;Brukertesting&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;universell-utforming.html&quot;&amp;gt;Universell utforming&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;brukehistorier.html&quot;&amp;gt;Brukerhistorier&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;systemutviklingsmetoder.html&quot;&amp;gt;Systemutviklingsmetoder&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;agile-metoder.html&quot;&amp;gt;Agile metoder&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;farhid-rahmani.html&quot;&amp;gt;Gruppens leder&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;mansur.html&quot;&amp;gt;Mansur&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;danayit.html&quot;&amp;gt;Danayit&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;li&amp;gt;&amp;lt;a href=&quot;fabian.html&quot; aria-current=&quot;page&quot;&amp;gt;Fabian&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+            &amp;lt;/nav&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/header&amp;gt;
+
+    &amp;lt;main class=&quot;wrapper&quot;&amp;gt;
+        &amp;lt;section class=&quot;profile-card&quot;&amp;gt;
+            &amp;lt;span class=&quot;badge&quot;&amp;gt;Fabian&amp;lt;/span&amp;gt;
+            &amp;lt;img src=&quot;../img/fabian.jpg&quot; alt=&quot;Portrett av Fabian, yngste medlem av gruppen&quot;&amp;gt;
+            &amp;lt;p&amp;gt;Hei og velkommen til min side, mitt navn er Fabian og er 19 år gammel, den yngste medlmen av gruppa, min oppgave var å jobbe med systemutviklingsmetoder og lage min HTML CSS side, jeg håper dere blir imponert over arbeidet mitt.&amp;lt;/p&amp;gt;
+            &amp;lt;p&amp;gt;&amp;lt;a class=&amp;quot;badge&amp;quot; href=&amp;quot;https://no.wikipedia.org/wiki/Robert_Lewandowski&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;Forbilde mitt&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+        &amp;lt;/section&amp;gt;
+    &amp;lt;/main&amp;gt;
+
+    &amp;lt;footer&amp;gt;
+        &amp;lt;div class=&quot;wrapper&quot;&amp;gt;
+            &amp;lt;p&amp;gt;Fabian fortsetter å bygge på siden etter hvert som prosjektet utvikler seg.&amp;lt;/p&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/footer&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+        &lt;/section&gt;
+    &lt;/main&gt;
+
+    &lt;footer&gt;
+        &lt;div class=&quot;wrapper&quot;&gt;
+            &lt;p&gt;Fabian fortsetter å bygge på siden etter hvert som prosjektet utvikler seg.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
         </section>
     </main>
 
